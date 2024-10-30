@@ -1,0 +1,17 @@
+C:\Users\Baku\Desktop\Directory, FIle, StreamWriter, StreamReader, Serialization, Deserialization\bin\Debug\net8.0\Directory, FIle, StreamWriter, StreamReader, Serialization, Deserialization.exe
+C:\Users\Baku\Desktop\Directory, FIle, StreamWriter, StreamReader, Serialization, Deserialization\bin\Debug\net8.0\Directory, FIle, StreamWriter, StreamReader, Serialization, Deserialization.deps.json
+C:\Users\Baku\Desktop\Directory, FIle, StreamWriter, StreamReader, Serialization, Deserialization\bin\Debug\net8.0\Directory, FIle, StreamWriter, StreamReader, Serialization, Deserialization.runtimeconfig.json
+C:\Users\Baku\Desktop\Directory, FIle, StreamWriter, StreamReader, Serialization, Deserialization\bin\Debug\net8.0\Directory, FIle, StreamWriter, StreamReader, Serialization, Deserialization.dll
+C:\Users\Baku\Desktop\Directory, FIle, StreamWriter, StreamReader, Serialization, Deserialization\bin\Debug\net8.0\Directory, FIle, StreamWriter, StreamReader, Serialization, Deserialization.pdb
+C:\Users\Baku\Desktop\Directory, FIle, StreamWriter, StreamReader, Serialization, Deserialization\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Baku\Desktop\Directory, FIle, StreamWriter, StreamReader, Serialization, Deserialization\obj\Debug\net8.0\Directory, FIle, StreamWriter, StreamReader, Serialization, Deserialization.csproj.AssemblyReference.cache
+C:\Users\Baku\Desktop\Directory, FIle, StreamWriter, StreamReader, Serialization, Deserialization\obj\Debug\net8.0\Directory, FIle, StreamWriter, StreamReader, Serialization, Deserialization.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Baku\Desktop\Directory, FIle, StreamWriter, StreamReader, Serialization, Deserialization\obj\Debug\net8.0\Directory, FIle, StreamWriter, StreamReader, Serialization, Deserialization.AssemblyInfoInputs.cache
+C:\Users\Baku\Desktop\Directory, FIle, StreamWriter, StreamReader, Serialization, Deserialization\obj\Debug\net8.0\Directory, FIle, StreamWriter, StreamReader, Serialization, Deserialization.AssemblyInfo.cs
+C:\Users\Baku\Desktop\Directory, FIle, StreamWriter, StreamReader, Serialization, Deserialization\obj\Debug\net8.0\Directory, FIle, StreamWriter, StreamReader, Serialization, Deserialization.csproj.CoreCompileInputs.cache
+C:\Users\Baku\Desktop\Directory, FIle, StreamWriter, StreamReader, Serialization, Deserialization\obj\Debug\net8.0\Director.A152001D.Up2Date
+C:\Users\Baku\Desktop\Directory, FIle, StreamWriter, StreamReader, Serialization, Deserialization\obj\Debug\net8.0\Directory, FIle, StreamWriter, StreamReader, Serialization, Deserialization.dll
+C:\Users\Baku\Desktop\Directory, FIle, StreamWriter, StreamReader, Serialization, Deserialization\obj\Debug\net8.0\refint\Directory, FIle, StreamWriter, StreamReader, Serialization, Deserialization.dll
+C:\Users\Baku\Desktop\Directory, FIle, StreamWriter, StreamReader, Serialization, Deserialization\obj\Debug\net8.0\Directory, FIle, StreamWriter, StreamReader, Serialization, Deserialization.pdb
+C:\Users\Baku\Desktop\Directory, FIle, StreamWriter, StreamReader, Serialization, Deserialization\obj\Debug\net8.0\Directory, FIle, StreamWriter, StreamReader, Serialization, Deserialization.genruntimeconfig.cache
+C:\Users\Baku\Desktop\Directory, FIle, StreamWriter, StreamReader, Serialization, Deserialization\obj\Debug\net8.0\ref\Directory, FIle, StreamWriter, StreamReader, Serialization, Deserialization.dll

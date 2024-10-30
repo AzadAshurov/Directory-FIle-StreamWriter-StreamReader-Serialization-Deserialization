@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Directory, FIle, StreamWriter, StreamReader, Serialization, Deserialization", "Directory, FIle, StreamWriter, StreamReader, Serialization, Deserialization.csproj", "{55C82842-BD29-44C5-A6C1-80D47D87BA05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55C82842-BD29-44C5-A6C1-80D47D87BA05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55C82842-BD29-44C5-A6C1-80D47D87BA05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55C82842-BD29-44C5-A6C1-80D47D87BA05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55C82842-BD29-44C5-A6C1-80D47D87BA05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {49F0709C-AD4A-42C9-8C83-BD2CA4C2893C}
+	EndGlobalSection
+EndGlobal
