@@ -14,7 +14,7 @@ namespace Directory_FIleStreamWriterStreamReaderSerialization_Deserialization
             {
                 sw.Write(DoSerialize(list));
             }
-            Add("Phone");
+            Add("Phone samsa");
             Console.WriteLine(Search("Book"));
             Console.WriteLine(Search("ghhsgjiojiorg"));
             Delete(1);
@@ -25,9 +25,8 @@ namespace Directory_FIleStreamWriterStreamReaderSerialization_Deserialization
 
         static void Add(string text)
         {
-            List<string> listFromJson;
-            string json = File.ReadAllText(Path);
-            listFromJson = DoDeserialize(json);
+            List<string> listFromJson = GetJson();
+
             listFromJson.Add(text);
             using (StreamWriter sw = new StreamWriter(Path, false))
             {
@@ -49,17 +48,14 @@ namespace Directory_FIleStreamWriterStreamReaderSerialization_Deserialization
 
         static bool Search(string name)
         {
-            List<string> listFromJson;
-            string json = File.ReadAllText(Path);
-            listFromJson = DoDeserialize(json);
+            List<string> listFromJson = GetJson();
 
             return listFromJson.Contains(name);
         }
         static void Delete(int index)
         {
-            List<string> listFromJson;
-            string json = File.ReadAllText(Path);
-            listFromJson = DoDeserialize(json);
+            List<string> listFromJson = GetJson();
+
             if (listFromJson.Count() > index)
             {
                 listFromJson.RemoveAt(index);
@@ -73,7 +69,13 @@ namespace Directory_FIleStreamWriterStreamReaderSerialization_Deserialization
                 Console.WriteLine("No such index");
             }
         }
-
+        static List<string> GetJson()
+        {
+            List<string> listFromJson;
+            string json = File.ReadAllText(Path);
+            listFromJson = DoDeserialize(json);
+            return listFromJson;
+        }
 
     }
 }
