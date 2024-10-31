@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "f3xsw4+oYGY=",
+  "dgSpecHash": "W+uo4gojeAV878u0/rr4BNNSFjg+bhETyx5oRn16K4IrC8qHLs0OrfsUSEg9aJGaXWMhWe3VqrrVxULLR2w03A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Baku\\Desktop\\Directory, FIle, StreamWriter, StreamReader, Serialization, Deserialization\\Directory, FIle, StreamWriter, StreamReader, Serialization, Deserialization.csproj",
+  "projectFilePath": "C:\\Users\\II novbe\\Desktop\\Directory-FIle-StreamWriter-StreamReader-Serialization-Deserialization\\Directory, FIle, StreamWriter, StreamReader, Serialization, Deserialization.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Baku\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\II novbe\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,29 +1,79 @@
 ﻿using Newtonsoft.Json;
 
-namespace Directory__FIle__StreamWriter__StreamReader__Serialization__Deserialization
+namespace Directory_FIleStreamWriterStreamReaderSerialization_Deserialization
 {
     internal class Program
     {
-        public string Path = @"C:\Users\Baku\Desktop\Directory, FIle, StreamWriter, StreamReader, Serialization, Deserialization\Files\JSON.json";
+        public static string Path = @"C:\Users\II novbe\Desktop\Directory-FIle-StreamWriter-StreamReader-Serialization-Deserialization\Files\JSON.json";
+
         static void Main(string[] args)
         {
-            List<string> list = new List<string>()
-           {
-               "Azad","Azad2","Azad3","Azad4"
-           };
-            string result = JsonConvert.SerializeObject(list);
-            Console.WriteLine(result);
-            Console.WriteLine(JsonConvert.DeserializeObject(result));
+            List<string> list = new List<string>() { "Frog", "Book", "SSD" };
+
+            using (StreamWriter sw = new StreamWriter(Path, false))
+            {
+                sw.Write(DoSerialize(list));
+            }
+            Add("Phone");
+            Console.WriteLine(Search("Book"));
+            Console.WriteLine(Search("ghhsgjiojiorg"));
+            Delete(1);
+
+
 
         }
-        static void DoSerialize()
+
+        static void Add(string text)
         {
-
+            List<string> listFromJson;
+            string json = File.ReadAllText(Path);
+            listFromJson = DoDeserialize(json);
+            listFromJson.Add(text);
+            using (StreamWriter sw = new StreamWriter(Path, false))
+            {
+                sw.WriteLine(DoSerialize(listFromJson));
+            }
         }
-        static void DoDeserialize(List<string> list)
+
+        static string DoSerialize(List<string> list)
         {
-
-
+            string json = JsonConvert.SerializeObject(list);
+            return json;
         }
+
+        static List<string> DoDeserialize(string json)
+        {
+            List<string> list = JsonConvert.DeserializeObject<List<string>>(json);
+            return list;
+        }
+
+        static bool Search(string name)
+        {
+            List<string> listFromJson;
+            string json = File.ReadAllText(Path);
+            listFromJson = DoDeserialize(json);
+
+            return listFromJson.Contains(name);
+        }
+        static void Delete(int index)
+        {
+            List<string> listFromJson;
+            string json = File.ReadAllText(Path);
+            listFromJson = DoDeserialize(json);
+            if (listFromJson.Count() > index)
+            {
+                listFromJson.RemoveAt(index);
+                using (StreamWriter sw = new StreamWriter(Path, false))
+                {
+                    sw.WriteLine(DoSerialize(listFromJson));
+                }
+            }
+            else
+            {
+                Console.WriteLine("No such index");
+            }
+        }
+
+
     }
 }
