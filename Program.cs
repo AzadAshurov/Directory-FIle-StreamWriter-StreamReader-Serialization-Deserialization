@@ -28,10 +28,7 @@ namespace Directory_FIleStreamWriterStreamReaderSerialization_Deserialization
             List<string> listFromJson = GetJson();
 
             listFromJson.Add(text);
-            using (StreamWriter sw = new StreamWriter(Path, false))
-            {
-                sw.WriteLine(DoSerialize(listFromJson));
-            }
+            SendToJson(listFromJson);
         }
 
         static string DoSerialize(List<string> list)
@@ -59,10 +56,7 @@ namespace Directory_FIleStreamWriterStreamReaderSerialization_Deserialization
             if (listFromJson.Count() > index)
             {
                 listFromJson.RemoveAt(index);
-                using (StreamWriter sw = new StreamWriter(Path, false))
-                {
-                    sw.WriteLine(DoSerialize(listFromJson));
-                }
+                SendToJson(listFromJson);
             }
             else
             {
@@ -75,6 +69,13 @@ namespace Directory_FIleStreamWriterStreamReaderSerialization_Deserialization
             string json = File.ReadAllText(Path);
             listFromJson = DoDeserialize(json);
             return listFromJson;
+        }
+        static void SendToJson(List<string> list)
+        {
+            using (StreamWriter sw = new StreamWriter(Path, false))
+            {
+                sw.WriteLine(DoSerialize(list));
+            }
         }
 
     }
